@@ -11,6 +11,7 @@ export const headerCommonMixin = level => css`
   font-weight: ${({ theme }) => theme.typography.headings.fontWeight};
   font-size: ${headerFontSize[level]};
   line-height: ${({ theme }) => theme.typography.headings.lineHeight};
+  margin-top: -60px;
 `;
 
 export const H1 = styled.h1`
